@@ -17,7 +17,7 @@ const transporter = nodemailer.createTransport(sendGridTransport(options));
 
 
 /*********User Register api******************
- * @file : profile picture
+ * @profilePicture : profile picture
  * @basepath : local storage path
  * @passwordValidate : declared in users schema
  * @token : generated radom token to send in email for verification
